@@ -1,0 +1,18 @@
+.list {
+    margin-top: 16px;
+}
+
+.articles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.articles li+li {
+    border-top: 1px solid var(--border);
+}
+
+.empty {
+    margin: 0;
+    color: var(--muted);
+}
